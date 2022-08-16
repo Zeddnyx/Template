@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+.container {
+   display: flex;
+   overflow-x: scroll;
+   padding: 100px;
+   width:  300px;
+   scroll-snap-type: x mandatory;
+   scroll-padding: 24px;
+   border-radius: 8px;
+   gap: 12px; 
+   margin: 30px auto;
+}
+
+.container div {
+   flex: 0 0 100%;
+   scroll-snap-align: start;
+   padding: 100px;
+   border-radius: 8px;
+   background-color: #172;
+}
+      </style>
+   </head>
+   <body>
+   <div class="container">
+      <div>
+         <h3>lorem ipsum</h3>
+         <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+      </div>
+      <div>
+         <h3>lorem ipsum</h3>
+         <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+      </div>
+      <div>
+         <h3>lorem ipsum</h3>
+         <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
+      </div>
+   </div>
+   </body>
+</html>

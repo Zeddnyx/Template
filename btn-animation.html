@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+button {
+   position: relative;
+   width: 70px;
+   height: 30px;
+   font-size: 10px;
+   background-color: #202231;
+   color:#fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transtion: width .5s, border-radius .5s;
+}
+button * {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:  translate(-50%, -50% );
+   transtion:  opacity  .25;
+}
+.icon {
+   opacity: 0;
+}
+
+button:focus {
+    width: 30px;
+    background-color: #44c08a; 
+   border-radius: 50%
+}
+button:focus .text {
+    opacity: 0;
+}
+button:focus .icon {
+   opacity: 1;
+   transtion-delay: 2s;
+}
+      </style>
+   </head>
+   <body>
+      <button type="submit">
+         <span class="text">Submit</span>
+         <i class="your-link-icon icon"></i>
+      </button>
+   </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+body {
+   background-color: #1f1f2f;
+}
+h1 {
+   position: relative;
+   coolor: #fff;
+}
+
+div {
+   display: inline;
+   margin-left: 10px;
+}
+
+div span {
+   width: max-content;
+   position: absolute;
+   background-color: #bb93fc;
+   paddding-inline: 10px;
+   opacity: 0;
+   transform-origin: 10% 75%;
+   animation: rotate 12s var(--d) linear infinite;
+}
+
+@keyframes rotate {
+   5% {
+      opacity: 1;
+   }
+   10%, 20% {
+      opacity: 1;
+      transform: rotate(3deg);
+   }
+   15% {
+      transform: rotate(-1deg);
+   }
+   25% {
+      opacity: 0;
+      transform: translatex(90px) rotate(9deg);
+   }
+}
+      </style>
+   </head>
+   <body>
+      <h1>Hi, i'm Zedd Nyx, a<br>
+         prefesional
+         <div>
+             <span style="--d: 0s">UI Design</span>
+             <span style="--d: 4s">UX Design</span>
+             <span style="--d: 8s">Front-End Dev</span>
+         </div>
+      </h1>
+   </body>
+</html>
