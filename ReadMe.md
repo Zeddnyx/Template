@@ -5,7 +5,7 @@ Notification banner
 ![notification banner](./asset/notif-baner.mp4)
 
 button animation
-![btn animation](./asset/btn-animation.mp4)
+![btn animation](https://www.veed.io/view/99d986e3-9818-406a-8a5a-474d3b3883ab)
 
 pseudo overlay
 ![pseudool overlay](./asset/pseudo.mp4)
